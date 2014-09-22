@@ -1,0 +1,13 @@
+Join
+select mhs.nama, jurusan.nama_jurusan from mhs Join
+select mhs.nama, jurusan.nama_jurusan from mhs Inner Join jurusan on mhs.jurusan_id = jurusan.jurusan_id;
+select mhs.nama, jurusan.nama_jurusan, fakultas.nama_fakultas from mhs inner join jurusan using(jurusan_id) inner Join fakultas using (fak_id);
+
+Tugas
+Buat Database Penjualan (toko Online) custumer, order, stok, (minimal 4 tabel)
+1. Tampilkan dengan Natural Join --> 2 Tabel
+2. Tampilkan dengan Cross Join --> 2 Tabel
+3. Tampilkan dengan Join --> 2 Tabel
+4. Tampilkan dengan Inner Join --> 3 Tabel
+5. Tampilkan dengan Left/Right Join --> 2 Tabel
+6. Tampilkan dengan Union --> 2 Tabel
